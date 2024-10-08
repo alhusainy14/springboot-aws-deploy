@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/demo")
+@RequestMapping("/hamada")
 public class api {
-    @GetMapping("/data")
+    @GetMapping("/roro")
     public String getData() {
         return "First message from alhusainy AWS Ecs";
     }
 
-    @GetMapping("/message")
+    @GetMapping("/bobo")
     public String getMessage() {
         return "Second message from Ya-Ali AWS Ecs";
     }
