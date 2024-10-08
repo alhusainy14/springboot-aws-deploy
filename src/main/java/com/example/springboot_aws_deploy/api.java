@@ -15,6 +15,6 @@ public class api {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Second message from Alhusainy AWS Ecs";
+        return "Second message from Ya-Ali AWS Ecs";
     }
 }
